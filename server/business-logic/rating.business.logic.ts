@@ -20,7 +20,7 @@ export const RatingLogic = {
             review,
           },
         });
-        addAPiCount += 1;
+        addAPiCount++;
 
         return resolve(create);
       } catch (error) {
